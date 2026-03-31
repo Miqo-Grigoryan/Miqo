@@ -1,0 +1,17 @@
+{
+  "name": "LIA - School Assistant",
+  "short_name": "LIA",
+  "description": "Official AI curator for School №26 in Gyumri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfcfb",
+  "theme_color": "#e63946",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2997/2997313.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

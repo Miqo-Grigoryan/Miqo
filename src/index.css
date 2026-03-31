@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Armenian:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans Armenian", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-lia-bg: #fdfcfb;
+  --color-lia-ink: #1a1a1a;
+  --color-lia-accent: #e63946;
+  --color-lia-muted: #6b7280;
+  --color-lia-border: #e5e7eb;
+}
+
+@layer base {
+  body {
+    @apply bg-lia-bg text-lia-ink font-sans;
+  }
+}
+
